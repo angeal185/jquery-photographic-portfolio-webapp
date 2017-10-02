@@ -1,0 +1,86 @@
+{
+    "headerImg":"//c1.staticflickr.com/5/4342/37401282856_6097b490fa_b.jpg",
+    "logo":"app/img/logo.png",
+    "landingSlide": {
+        "title": "landing slide title",
+        "sub": "landing slide subTitle",
+        "img":"//c1.staticflickr.com/5/4409/36739540904_1b874473fa_b.jpg"
+    },
+    "section": [
+        "about-me",
+        "services",
+        "pricing",
+        "contact"
+    ],
+    "aboutMeData":{
+      "title":"About me title",
+      "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis lacinia tellus. Nullamvenenatis a sem non dictum. Aliquam orci ipsum, malesuada lacinia faucibus nec, bibendum a enim.Sed efficitur bibendum purus. Fusce libero metu",
+      "img":"app/img/img.png"
+    },
+    "servicesData": {
+        "title": "Our Services",
+        "info": "Duis ut finibus elit. Praesent vestibulum porta odio, in commodo velit placerat sed. Vivamus etiaculis sem. Sed nibh turpis, finibus ut est nec, tempus fringilla augue. Quisque blandit nunc eutincidunt iaculis."
+    },
+    "services": [
+        {
+            "img": "service-01.jpg",
+            "title": "title1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis lacinia tellus Nullam venenatis a sem non dictum."
+        },
+        {
+            "img": "service-02.jpg",
+            "title": "title2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis lacinia tellus Nullam venenatis a sem non dictum."
+        },
+        {
+            "img": "service-03.jpg",
+            "title": "title3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis lacinia tellus. Nullam venenatis a sem non dictum."
+        }
+    ],
+    "pricing": [
+        {
+            "price": 33,
+            "title": "priceTitle1",
+            "description": "Cras ornare ligula quis ultrices fermentum. Maecenas finibus, sapien non suscipit luctus.",
+            "info1":"Sit amet porta urna interdum",
+            "info2":"In pretium euismod justo et porttitor",
+            "info3":"In pretium euismod justo et porttitor"
+        },
+        {
+            "price": 66,
+            "title": "priceTitle2",
+            "description": "sit amet lorem scelerisque sodales quis ut eros. Nullam elit dui, egestas vel tortor.",
+            "info1":"In pretium euismod justo et porttitor",
+            "info2":"In pretium euismod justo et porttitor",
+            "info3":"Sit amet porta urna interdum"
+        },
+        {
+            "price": 99,
+            "title": "priceTitle3",
+            "description": "metus sodales, elementum ligula quis, facilisis neque. Sed eu purus ut mauris malesuada viverra eu vitae",
+            "info1":"Sit amet porta urna interdum",
+            "info2":"In pretium euismod justo et porttitor",
+            "info3":"In pretium euismod justo et porttitor"
+        }
+    ],
+    "socialData": {
+        "address": "999 xxx street xxx xxx",
+        "phone": "+61 0400 000 000",
+        "emailLnk":"admin@test.com",
+        "email":"admin@test.com"
+    },
+    "socialLnk": [
+        {
+            "ico": "facebook",
+            "url": ""
+        },
+        {
+            "ico": "twitter",
+            "url": ""
+        },{
+            "ico": "linkedin",
+            "url": ""
+        }
+    ]
+}
