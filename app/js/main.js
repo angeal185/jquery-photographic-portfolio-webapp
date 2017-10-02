@@ -41,7 +41,7 @@ $.getJSON("app/data/info.json", function( data ) {
 
   $('nav').append('<div class="brand"><img src="' + data.logo + '"></div>');
 
-  $('.inner-wrapper').prepend('<div class="slide first" id="0" data-position-x="0" data-position-y="0" data-position-z="1" data-rotation="0"><div class="main-title"><div class="main-title-wrapper"><h1>' + data.landingSlide.title + '</h1><h2>' + data.landingSlide.sub + '</h2><a href="#" class="btn btn-default next">Show my works</a></div></div><div class="image" data-background="' + data.landingSlide.img + '"></div></div>');
+  $('.inner-wrapper').prepend('<div class="slide first" id="0" data-position-x="0" data-position-y="0" data-position-z="1" data-rotation="0"><div class="main-title"><div class="main-title-wrapper"><h1>' + data.landingSlide.title + '</h1><h2>' + data.landingSlide.sub + '</h2></div></div><div class="image" data-background="' + data.landingSlide.img + '"></div></div>');
 
 
   $('.page-wrapper').append('<div class="off-screen-content"><div id="inner" class="scrollbar-inner"><div class="image-header"><div class="bg-transfer"><img src="' + data.headerImg + '"></div></div></div></div>');
